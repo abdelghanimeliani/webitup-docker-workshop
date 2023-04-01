@@ -9,7 +9,7 @@ services:
       - overlay
 
   api:
-    image: /api
+    build: /api
     networks:
        - overlay
     ports:
